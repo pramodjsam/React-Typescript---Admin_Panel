@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# Admin Panel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Admin Panel and developed using React, Typescript, Sass and Material UI.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Admins can manage the products and users of the website.
+- Users and Products data shown in table with pagination included.
+- Visual representation using chart and progress bar.
+- Users and Products can be added with images similar to CMS.
+- Light and Dark mode.
 
-### `npm start`
+## Tech
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This application uses a number of open source projects to work properly:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [React] - React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.
+- [Typescript] - It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript.
+- [Sass] - Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called "the indented syntax," uses a syntax similar to Haml.
+- [Material UI (MUI)] - MUI offers a comprehensive suite of UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.
 
-### `npm test`
+And of course this application itself is open source with every code available here in github.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Requires [Node.js](https://nodejs.org/) v10+ to run.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install the dependencies and start the server.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+npm install
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshot
 
-### `npm run eject`
+##### Home
+<img src="./screenshots/Home.png" width="800" height="400">
+<img src="./screenshots/Home-1.png" width="800" height="400">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##### User
+<img src="./screenshots/User.png" width="800" height="400">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##### Create New User/Product
+<img src="./screenshots/New.png" width="800" height="400">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+##### Dark Mode
+<img src="./screenshots/Home-Dark-1.png" width="800" height="400">
+<img src="./screenshots/Home-Dark-2.png" width="800" height="400">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Performance Test
+<img src="./screenshots/performance.JPG" width="800" height="400">
 
-## Learn More
+## Hosted
+The link for the finished website - [Click Here](https://next-typescript-netflix-redesign.vercel.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- ## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT -->
