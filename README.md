@@ -52,7 +52,7 @@ npm start
 <img src="./screenshots/performance.JPG" width="800" height="400">
 
 ## Hosted
-The link for the finished website - [Click Here](https://next-typescript-netflix-redesign.vercel.app/)
+The link for the finished website - [Click Here](https://react-typescript-admin-panel.netlify.app/)
 
 <!-- ## License
 
