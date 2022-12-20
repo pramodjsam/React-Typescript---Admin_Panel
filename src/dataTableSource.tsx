@@ -1,5 +1,5 @@
 import React from "react";
-import { GridRenderCellParams, GridValueGetterParams } from "@mui/x-data-grid";
+import { GridRenderCellParams } from "@mui/x-data-grid";
 
 interface IUserColumns {
   field: string;
